@@ -203,6 +203,45 @@ nav.right a span{
     }
 
 }
+.background-section{
+    margin: 0 50px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 700px;
+     margin: auto;
+}
+.background-section h2{
+    text-align: center;
+    font-size: 35px;
+}
+ .background-section .edu-content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.background-section .icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.background-section .edu-content h3{
+    margin: 0;
+    color: #007bff;
+}
+.background-section .edu-content p{
+          margin: 4px 0;
+            color: #555;
+}
+.edu-item:hover {
+    background-color: #f1f7ff;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
 .Certifications{
     margin: 0 50px;
     margin-bottom: 100px;
