@@ -4,12 +4,10 @@
     box-sizing: content-box;
     
 }
-
 :root{
  --link-color:#3581cd;
  --text-color:#091017;
 }
-
 html{
     scroll-behavior: smooth;
 }
@@ -243,6 +241,7 @@ nav.right a span{
     transform: scale(1.02);
     transition: 0.3s;
 }
+/*certificate*/
 
 .Certifications{
     margin: 0 50px;
@@ -270,6 +269,7 @@ nav.right a span{
 }
     
 /*MY CV*/
+
 .mycv{
     margin: 0 50px;
     margin-bottom: 100px;
@@ -297,7 +297,6 @@ nav.right a span{
 }
 
 /*contact*/
-
 .contact-section{
     margin-bottom: 100px;
     margin: 0 50px;
@@ -317,7 +316,7 @@ nav.right a span{
     flex-direction: column;
 
 }
-.contact-section .group form input,.contact-section .group form textarea{
+.contact-section .group form input, .contact-section .group form textarea{
   font-family:'Poppins';
   border: 2px solid var(--link-color);
   background-color: transparent;
